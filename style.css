@@ -1,6 +1,14 @@
+.title {
+    font-family: Arial,sans-serif;
+    color:#303030;
+}
 .black {
     font-weight: bold;
+    color:#303030;
 }
 .uper {
     text-transform: uppercase;
+}
+.italyc{
+    font-style: italic;
 }
