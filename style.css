@@ -1,17 +1,35 @@
-.body{
-    margin:5px 0px;
+body{
+    margin: 0px;
+}
+.anu1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.float{
+    margin-right: 250px;
+}
+.float2{
+    margin-right: 220px;
+}
+.anu2{
+    float: right;
 }
 .font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#303030;
-    font-size: 22px;
-    margin: 16px 630px 16px 175px;
+    font-size: 23px;
+    margin: 16px 630px 16px 180px;
     line-height: 30px;
+}
+.position{
+    position: fixed;
+    top:0;
 }
 .ulnavba{
     list-style-type: none;
     margin: 0px;
-    padding: 10px 10px 10px 100px;
+    padding: 10px 100px 10px 100px;
+    background-color: white;
 }
 .linavba{
     display: inline;
@@ -57,7 +75,7 @@
 .ulnavbb{
     list-style-type: none;
     margin: 0px;
-    padding: 10px 10px 10px 100px;
+    padding: 10px 728px 10px 100px;
     background-color:#303030;
 }
 .linavbb{
@@ -94,7 +112,7 @@
     font-family: Arial,sans-serif;
     color:#303030;
     font-size: 42px;
-    margin: 16px 630px 16px 175px;
+    margin: 16px 630px 16px 180px;
     font-weight: 800;
 }
 .icon{
@@ -104,7 +122,7 @@
     font-family: Arial, sans-serif;
     color:#303030;
     font-size: 19px;
-    margin: 16px 630px 0px 175px;
+    margin: 16px 630px 0px 180px;
     line-height: 30px;
 }
 .upd{
@@ -113,10 +131,11 @@
     border-left: 1px solid #626262;
     font-weight: 700;
 }
-.info1{font-family: Arial, sans-serif;
+.info1{
+    font-family: Arial, sans-serif;
     color:#626262;
     font-size: 15px;
-    margin: 0px 630px 16px 175px;
+    margin: 0px 630px 0px 180px;
     line-height: 30px;
 }
 .black {
@@ -137,15 +156,19 @@
     
 }
 .hl{
-    color: black;
+    color: #303030;
     text-decoration:underline;
     text-decoration-color: #0098fe;
     text-decoration-thickness: 3px;
     text-underline-offset: 1px;
+}
+.hl:hover{
+    color:black;
 }
 .imgtxt{
     margin: 16px 630px 16px 175px;
 }
 .imgicon{
     margin:0px 10px;
+    text-decoration: none;
 }
