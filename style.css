@@ -1,4 +1,6 @@
-
+.body{
+    margin:5px 0px;
+}
 .font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#303030;
@@ -6,19 +8,104 @@
     margin: 16px 630px 16px 175px;
     line-height: 30px;
 }
+.ulnavba{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 10px 10px 100px;
+}
+.linavba{
+    display: inline;
+    border-top: 7px solid #3cc37d;
+    margin: 0px 15px;
+    padding: 10px 70px 0px 0px;
+}
+.liusa{
+    display: inline;
+    margin: 0px 15px;
+    padding: 10px 70px 0px 0px;
+}
+.lisus{
+    display: inline;
+    margin: 0px 15px;
+    padding: 10px 70px 0px 0px;
+}
+.anavba{
+    font-family: Arial,sans-serif;
+    color: #303030;
+    font-size: 18px;
+    padding: 8px 8px 8px 0px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.ausa{
+    font-family: Arial,sans-serif;
+    color: #303030;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 8px 8px 0px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.asus{
+    font-family: Arial,sans-serif;
+    color: blue;
+    font-size: 18px;
+    padding: 8px 8px 8px 0px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.ulnavbb{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 10px 10px 100px;
+    background-color:#303030;
+}
+.linavbb{
+    display: inline;
+    padding: 0px 10px;
+    
+}
+.anavbb{
+    font-family: Arial,sans-serif;
+    color: white;
+    padding: 8px;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+.anavbb:hover{
+    color:#E9E8E8;
+}
+.index{
+    font-family:Arial,sans-serif ;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 16px 630px 16px 175px;
+    line-height: 30px;
+}
+.indexa{
+    color:#00553c;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
+}
 .title {
     font-family: Arial,sans-serif;
     color:#303030;
     font-size: 42px;
-    margin: 175px 630px 16px 175px;
+    margin: 16px 630px 16px 175px;
     font-weight: 800;
 }
 .icon{
     margin: 16px 630px 16px 175px;
 }
 .info{
-    font-size : 16px;
-    margin-bottom: 2px;
+    font-family: Arial, sans-serif;
+    color:#303030;
+    font-size: 20px;
+    margin: 16px 630px 0px 175px;
+    line-height: 30px;
 }
 .upd{
     margin-left: 6px;
@@ -26,10 +113,11 @@
     border-left: 1px solid #626262;
     font-weight: 700;
 }
-.info1{
+.info1{font-family: Arial, sans-serif;
     color:#626262;
-    font-size: 14px;
-    margin-top: 2px;
+    font-size: 16px;
+    margin: 0px 630px 16px 175px;
+    line-height: 30px;
 }
 .black {
     color:#303030;
@@ -45,6 +133,8 @@
     color: black;
     text-decoration:underline;
     text-decoration-color: #0098fe;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
 }
 .imgtxt{
     margin: 16px 630px 16px 175px;
