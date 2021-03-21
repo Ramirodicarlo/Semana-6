@@ -1,26 +1,122 @@
 body{
     margin: 0px;
 }
-.anu1{
-    margin-top: 100px;
-    margin-left: 100px;
+.font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#303030;
+    font-size: 18px;
+    margin: 16px 500px 16px 140px;
+    line-height: 30px;
 }
+.index{
+    font-family:Arial,sans-serif ;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 16px 500px 16px 140px;
+    line-height: 30px;
+}
+.indexa{
+    color:#00553c;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
+}
+
+.title {
+    font-family: Arial,sans-serif;
+    color:#303030;
+    font-size: 35px;
+    margin: 16px 500px 16px 140px;
+    font-weight: 800;
+}
+
+.info{
+    font-family: Arial, sans-serif;
+    color:#303030;
+    font-size: 16px;
+    margin: 16px 500px 0px 140px;
+    line-height: 30px;
+}
+.upd{
+    margin-left: 6px;
+    padding-left: 6px;
+    border-left: 1px solid #626262;
+    font-weight: 700;
+}
+.info1{
+    font-family: Arial, sans-serif;
+    color:#626262;
+    font-size: 12px;
+    margin: 0px 500px 0px 140px;
+    line-height: 30px;
+}
+.black {
+    color:#303030;
+    font-weight: 800;
+}
+
+.icon{
+    margin: 16px 500px 16px 140px;
+}
+.imgicon{
+    margin:0px 5px;
+    text-decoration: none;
+}
+.hl{
+    color: #303030;
+    text-decoration:underline;
+    text-decoration-color: #0098fe;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+.hl:hover{
+    color:black;
+}
+
+
 .float{
-    margin-right: 250px;
+    margin-right: 100px;
 }
 .float2{
-    margin-right: 220px;
+    margin-right: 100px;
 }
 .anu2{
     float: right;
 }
-.font{
+.imgtxt{
+    margin: 16px 500px 16px 140px;
+}
+.adss{
+    padding-left:100px ;
+    background-color: rgb(240,60,75);
+}
+.anu1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.txtfloat{
+    margin-right: 100px;
+}
+.anutxt{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#303030;
-    font-size: 23px;
-    margin: 16px 630px 16px 180px;
-    line-height: 30px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    width: 300px;
+    padding: 14px 16px 16px;
+    margin: 15px 0 36px;
+    border: 6px solid #0098fe;
+    float: right;
+    line-height: 20px;
 }
+.float3{
+    margin-right: 150px;
+}
+
+
+
 .position{
     position: fixed;
     top:0;
@@ -28,14 +124,14 @@ body{
 .ulnavba{
     list-style-type: none;
     margin: 0px;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 50px 10px 50px;
     background-color: white;
 }
 .linavba{
     display: inline;
-    border-top: 7px solid #3cc37d;
+    border-top: 6px solid #3cc37d;
     margin: 0px 15px;
-    padding: 10px 70px 0px 0px;
+    padding: 10px 40px 0px 0px;
 }
 .liusa{
     display: inline;
@@ -50,7 +146,7 @@ body{
 .anavba{
     font-family: Arial,sans-serif;
     color: #303030;
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 8px 8px 0px;
     font-weight: 700;
     text-decoration: none;
@@ -75,100 +171,38 @@ body{
 .ulnavbb{
     list-style-type: none;
     margin: 0px;
-    padding: 10px 728px 10px 100px;
+    padding: 4px 300px 4px 80px;
     background-color:#303030;
 }
 .linavbb{
     display: inline;
-    padding: 0px 10px;
-    
+    padding: 0px 5px;    
 }
 .anavbb{
     font-family: Arial,sans-serif;
+    font-size: 14px;
     color: white;
     padding: 8px;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
 
 }
 .anavbb:hover{
     color:#E9E8E8;
 }
-.index{
-    font-family:Arial,sans-serif ;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin: 16px 630px 16px 175px;
-    line-height: 30px;
-}
-.indexa{
-    color:#00553c;
-    font-weight: 800;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 1px;
-}
-.title {
-    font-family: Arial,sans-serif;
-    color:#303030;
-    font-size: 42px;
-    margin: 16px 630px 16px 180px;
-    font-weight: 800;
-}
-.icon{
-    margin: 16px 630px 16px 175px;
-}
-.info{
-    font-family: Arial, sans-serif;
-    color:#303030;
-    font-size: 19px;
-    margin: 16px 630px 0px 180px;
-    line-height: 30px;
-}
-.upd{
-    margin-left: 6px;
-    padding-left: 6px;
-    border-left: 1px solid #626262;
-    font-weight: 700;
-}
-.info1{
-    font-family: Arial, sans-serif;
-    color:#626262;
-    font-size: 15px;
-    margin: 0px 630px 0px 180px;
-    line-height: 30px;
-}
-.black {
-    color:#303030;
-    font-weight: 800;
-}
+
+
 .uper {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
+
+
 .italic{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color:#303030;
-    font-size: 22px;
-    margin: 16px 630px 16px 175px;
-    line-height: 30px;
-    
-}
-.hl{
-    color: #303030;
-    text-decoration:underline;
-    text-decoration-color: #0098fe;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 1px;
-}
-.hl:hover{
-    color:black;
-}
-.imgtxt{
-    margin: 16px 630px 16px 175px;
-}
-.imgicon{
-    margin:0px 10px;
-    text-decoration: none;
+    font-size: 18px;
+    margin: 16px 500px 16px 140px;
+    line-height: 30px;    
 }
