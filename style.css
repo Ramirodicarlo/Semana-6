@@ -1,14 +1,51 @@
+
+.font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#303030;
+    font-size: 22px;
+    margin: 16px 630px 16px 175px;
+    line-height: 30px;
+}
 .title {
     font-family: Arial,sans-serif;
     color:#303030;
+    font-size: 42px;
+    margin: 175px 630px 16px 175px;
+    font-weight: 800;
+}
+.icon{
+    margin: 16px 630px 16px 175px;
+}
+.info{
+    font-size : 16px;
+    margin-bottom: 2px;
+}
+.upd{
+    margin-left: 6px;
+    padding-left: 6px;
+    border-left: 1px solid #626262;
+    font-weight: 700;
+}
+.info1{
+    color:#626262;
+    font-size: 14px;
+    margin-top: 2px;
 }
 .black {
-    font-weight: bold;
     color:#303030;
+    font-weight: bold;
 }
 .uper {
     text-transform: uppercase;
 }
 .italyc{
     font-style: italic;
+}
+.hl{
+    color: black;
+    text-decoration:underline;
+    text-decoration-color: #0098fe;
+}
+.imgtxt{
+    margin: 16px 630px 16px 175px;
 }
