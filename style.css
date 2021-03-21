@@ -103,7 +103,7 @@
 .info{
     font-family: Arial, sans-serif;
     color:#303030;
-    font-size: 20px;
+    font-size: 19px;
     margin: 16px 630px 0px 175px;
     line-height: 30px;
 }
@@ -115,19 +115,26 @@
 }
 .info1{font-family: Arial, sans-serif;
     color:#626262;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0px 630px 16px 175px;
     line-height: 30px;
 }
 .black {
     color:#303030;
-    font-weight: bold;
+    font-weight: 800;
 }
 .uper {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
-.italyc{
+.italic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    color:#303030;
+    font-size: 22px;
+    margin: 16px 630px 16px 175px;
+    line-height: 30px;
+    
 }
 .hl{
     color: black;
@@ -138,4 +145,7 @@
 }
 .imgtxt{
     margin: 16px 630px 16px 175px;
+}
+.imgicon{
+    margin:0px 10px;
 }
