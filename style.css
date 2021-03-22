@@ -1,208 +1,207 @@
 body{
     margin: 0px;
 }
-.font{
+.header-fixed{
+    position: fixed;
+    top:0;
+}
+.advertisement-top{
+    padding-left:100px ;
+    background-color: rgb(240,60,75);
+}
+.text-font{
+    margin: 16px 500px 16px 140px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#303030;
     font-size: 18px;
-    margin: 16px 500px 16px 140px;
     line-height: 30px;
 }
-.index{
+.index-font{
+    margin: 16px 500px 16px 140px;
     font-family:Arial,sans-serif ;
     text-transform: uppercase;
     font-size: 14px;
-    margin: 16px 500px 16px 140px;
     line-height: 30px;
 }
-.indexa{
+.index-decoration{
     color:#00553c;
     font-weight: 800;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 1px;
 }
-
-.title {
+.title-font {
+    margin: 16px 500px 16px 140px;
     font-family: Arial,sans-serif;
     color:#303030;
     font-size: 35px;
-    margin: 16px 500px 16px 140px;
     font-weight: 800;
 }
-
-.info{
+.font-uppercase {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.font-italic{
+    margin: 16px 500px 16px 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:#303030;
+    font-size: 18px;
+    line-height: 30px;    
+}
+.info-font{
+    margin: 16px 500px 0px 140px;
     font-family: Arial, sans-serif;
     color:#303030;
     font-size: 16px;
-    margin: 16px 500px 0px 140px;
     line-height: 30px;
 }
-.upd{
-    margin-left: 6px;
-    padding-left: 6px;
-    border-left: 1px solid #626262;
-    font-weight: 700;
-}
-.info1{
+.info2-font{
     font-family: Arial, sans-serif;
     color:#626262;
     font-size: 12px;
     margin: 0px 500px 0px 140px;
     line-height: 30px;
 }
-.black {
+.info-text{
+    margin-left: 6px;
+    padding-left: 6px;
+    border-left: 1px solid #626262;
+    font-weight: 700;
+}
+.font-black {
     color:#303030;
     font-weight: 800;
 }
-
-.icon{
+.social-icon-div{
     margin: 16px 500px 16px 140px;
 }
-.imgicon{
+.social-img-icon{
     margin:0px 5px;
     text-decoration: none;
 }
-.hl{
+.link-decoration{
     color: #303030;
     text-decoration:underline;
     text-decoration-color: #0098fe;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
 }
-.hl:hover{
+.link-decoration:hover{
     color:black;
 }
-
-
-.float{
+.advertisement-margin{
     margin-right: 100px;
 }
-.float2{
-    margin-right: 100px;
-}
-.anu2{
+.advertisement-float{
     float: right;
 }
-.imgtxt{
+.advertisement-float2{
+    float: right;
+    margin-right: 150px;
+}
+.advertisement-sticky{
+    position: sticky;
+    top:150px;
+}
+.advertisement-text-margin{
     margin: 16px 500px 16px 140px;
 }
-.adss{
-    padding-left:100px ;
-    background-color: rgb(240,60,75);
-}
-.anu1{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-.txtfloat{
+.text-float{
     margin-right: 100px;
 }
-.anutxt{
+
+.text-float-font{
+    float: right;
+    margin: 15px 0 36px;
+    padding: 14px 16px 16px;
+    border: 6px solid #0098fe;
+    width: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#303030;
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
-    width: 300px;
-    padding: 14px 16px 16px;
-    margin: 15px 0 36px;
-    border: 6px solid #0098fe;
-    float: right;
     line-height: 20px;
 }
-.float3{
-    margin-right: 150px;
+.text-ul-font{
+    margin: 16px 500px 16px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#303030;
+    font-size: 18px;
+    line-height: 30px;
+}
+.advertisement-body-margin{
+    margin-top: 150px;
 }
 
-
-
-.position{
-    position: fixed;
-    top:0;
-}
-.ulnavba{
+.navbar-ul-1{
     list-style-type: none;
     margin: 0px;
     padding: 10px 50px 10px 50px;
     background-color: white;
 }
-.linavba{
+
+.navbar-li-icon{
     display: inline;
-    border-top: 6px solid #3cc37d;
+    margin: 0px 13px;
+    padding: 10px 70px 0px 0px;
+}
+.navbar-li-1{
+    display: inline;
     margin: 0px 15px;
     padding: 10px 40px 0px 0px;
+    border-top: 6px solid #3cc37d;
+    
 }
-.liusa{
-    display: inline;
-    margin: 0px 15px;
-    padding: 10px 70px 0px 0px;
-}
-.lisus{
-    display: inline;
-    margin: 0px 15px;
-    padding: 10px 70px 0px 0px;
-}
-.anavba{
-    font-family: Arial,sans-serif;
-    color: #303030;
-    font-size: 16px;
+.navbar-li-icon-font{
     padding: 8px 8px 8px 0px;
-    font-weight: 700;
-    text-decoration: none;
-}
-.ausa{
     font-family: Arial,sans-serif;
     color: #303030;
     text-transform: uppercase;
     font-size: 18px;
-    padding: 8px 8px 8px 0px;
     font-weight: 800;
     text-decoration: none;
 }
-.asus{
-    font-family: Arial,sans-serif;
-    color: blue;
-    font-size: 18px;
+.navbar-li-a-font{
     padding: 8px 8px 8px 0px;
+    font-family: Arial,sans-serif;
+    color: #303030;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
 }
-.ulnavbb{
+.navbar-li-suscribe{
+    display: inline;
+    margin: 0px 15px;
+    padding: 10px 70px 0px 0px;
+}
+.navbar-li-a-suscribe{
+    padding: 8px 8px 8px 0px;
+    font-family: Arial,sans-serif;
+    color: blue;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navbar-ul-2{
     list-style-type: none;
     margin: 0px;
     padding: 4px 300px 4px 80px;
     background-color:#303030;
 }
-.linavbb{
+.navbar-li-2{
     display: inline;
     padding: 0px 5px;    
 }
-.anavbb{
+.navbar-li-2-a-font{
+    padding: 8px;
     font-family: Arial,sans-serif;
     font-size: 14px;
     color: white;
-    padding: 8px;
     font-weight: 700;
     text-decoration: none;
-
 }
-.anavbb:hover{
+.navbar-li-2-a-font:hover{
     color:#E9E8E8;
-}
-
-
-.uper {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-
-
-.italic{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    color:#303030;
-    font-size: 18px;
-    margin: 16px 500px 16px 140px;
-    line-height: 30px;    
 }
