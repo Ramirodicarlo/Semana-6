@@ -37,6 +37,12 @@ body{
     font-size: 35px;
     font-weight: 800;
 }
+.h2-font{
+    margin: 16px 500px 16px 140px;
+    font-family: Arial,sans-serif;
+    color:#303030;
+    font-weight: 800;
+}
 .font-uppercase {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
