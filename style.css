@@ -198,14 +198,20 @@ body{
 }
 .navbar-li-2{
     display: inline;
-    padding: 0px 5px;    
+    padding: 0px 10px;    
+}
+.navbar-li-2-list{
+    display: inline;
+    padding: 0px 10px;
+    border:2px solid white;
+    border-radius: 10px;   
 }
 .navbar-li-2-a-font{
     padding: 8px;
     font-family: Arial,sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: white;
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
 }
 .navbar-li-2-a-font:hover{
